@@ -1,5 +1,5 @@
 <h1 align="center">
-  Web Group Chat SX 👨🏼‍💻
+ ReactJS Group Chat Sample App👨🏼‍💻
 </h1>
 
 ## About LikeMinds
@@ -17,26 +17,30 @@
 
 ## Getting Started
 
-## Generating API key
+### Generating API key
 
-```shell
+```text
   1. Go to dashboard.likeminds.community and create your account.
   2. After signup, create a new app and copy the API key from the settings tab in the app.
   3. Copy and save this API key to be used in client-side and backend SDKs for your projects.
   5. The dashboard also helps you to manage the users and the chatroom created
 ```
 
-## Clone repo
+### Clone repo
 
 ```shell
-git clone git@github.com:NateshR/LikeMinds-Web-GroupChat-SX.git
+git clone https://github.com/LikeMindsCommunity/LikeMinds-ReactJs-GroupChat-Sample-App.git
 ```
 
-## NPM
+### NPM
 
 ```shell
 Run `npm install` and then `npm start`.
 ```
+
+### Add .env file
+
+Use the `.env.example` replace the API key
 
 ## 🤔 Prerequisites
 
