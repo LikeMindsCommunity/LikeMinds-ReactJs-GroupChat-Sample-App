@@ -40,7 +40,7 @@ Run `npm install` and then `npm start`.
 
 ### Add .env file
 
-Use the `.env.example` replace the API key
+Copy the `.env.example` as `.env` replace the API key with your API key on Dashboard
 
 ## 🤔 Prerequisites
 
@@ -70,28 +70,3 @@ Your app is ready to be deployed!
 ### `npm run build` fails to minify
 
 https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-
-## 😎 File Structure
-
-```text
-src
-├── assets                  * Assets that are imported into your components(images, custom svg, etc).
-├── App.css                 * Main app styles.
-├── App.tsx                 * Main app component.
-├──
-  modules
-  └── components          * Components of the projects that are not the main views.
-│       └── channelGroups
-│       └── ChatConversationsArea
-│       └── direct-messages
-│       └── groupChatArea
-│       └── Groups
-│       └── header
-│       └── InputComponent
-│       └── reportConversation
-│       └── SearchBar
-│       └── sidenav
-├── sdkFunctions            * All the common services.
-├── stylesAccessories       * Some common function.
-├── index.tsx               * Entry point of the application.
-```
